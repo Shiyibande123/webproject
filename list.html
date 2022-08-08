@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="icon" href="https://sxsimg.xiaoyuanzhao.com/static/img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <header>
+            <h1><a href=""><img src="images/logo-shixiseng.ea8da47.png" alt=""></a></h1>
+            <ul>
+                <li class="quanguo"><a href=""><span>全国</span> [切换]</a></li>
+                <li><a href="">首页</a></li>
+                <li><a href="">校招</a><span class="nh"><img
+                            src="https://sxsimg.xiaoyuanzhao.com/static_sxs/dist/desktop/dist/client/img/icon-new.fd1130a.svg"
+                            alt=""></span></li>
+                <li><a href="">留学生</a><span class="nh"><img
+                            src="https://sxsimg.xiaoyuanzhao.com/static_sxs/dist/desktop/dist/client/img/icon-hot.773d2a0.svg"
+                            alt=""></span></li>
+                <li><a href="">实习僧TV</a></li>
+                <li class="message"><a href="">消息</a></li>
+                <li class="download"><a href=""><span class="dl"><img
+                                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTNweCIgaGVpZ2h0PSIxN3B4IiB2aWV3Qm94PSIwIDAgMTMgMTciIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbl9oZWFkX3Bob25lZG93bjwvdGl0bGU+CiAgICA8ZyBpZD0iMjAyMTA2MDnov63ku6MiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSLpppbpobUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNDI0LjAwMDAwMCwgLTIwLjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iaGVhZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIC0xLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Imljb25faGVhZF9waG9uZWRvd24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0MjQuMDAwMDAwLCAyMS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0i55+p5b2iIiBzdHJva2U9IiM2QUEyRTQiIHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iMTIiIGhlaWdodD0iMTYiIHJ4PSIyIj48L3JlY3Q+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IuefqeW9oiIgc3Ryb2tlPSIjNkFBMkU0IiB4PSIyLjUiIHk9IjIuNSIgd2lkdGg9IjgiIGhlaWdodD0iMTAiIHJ4PSIxIj48L3JlY3Q+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IuefqeW9oiIgZmlsbD0iIzZBQTJFNCIgeD0iNCIgeT0iMTQiIHdpZHRoPSI1IiBoZWlnaHQ9IjEiIHJ4PSIwLjUiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+                                alt=""></span> APP下载</a></li>
+            </ul>
+            <button>企业入口</button>
+        </header>
+    </div>
+    <div class="middle">
+        <!-- 中部： -->
+        <ul id="menu">
+            <li class="current">实习</li>
+            <li>校招</li>
+            <li>公司</li>
+        </ul>
+        <div class="search">
+            <select name="" id="">
+                <option value="">全国</option>
+            </select>
+            <input type="text" placeholder="请输入期望的实习岗位、公司">
+            <button>搜索</button>
+        </div>
+        <p class="about"><span class="one">相关搜索：</span><span><a href="">java实习生18届毕业</a></span><span><a
+                    href="">java开发实习生</a></span><span><a href="">软件实习生</a></span><span><a href="">pathon实习生</a></span>
+        </p>
+        <div class="display">
+            <div>
+                <span>实习区域：</span><span>不限</span><span>实习月份：</span><span>不限</span><span>每周几天：</span><span>不限</span><span>学历要求：</span><span>不限</span><span>转正机会：</span><span>不限</span><span>企业筛选：</span><span>不限</span><button>清空</button>
+            </div>
+
+            <div id="choose">
+                <ul>
+                    <li id="chone"><span>实习区域：</span><span class="current">不限</span></li>
+                    <li id="chtwo"><span>实习月份：</span><span
+                            class="current">不限</span><span>一月</span><span>两月</span><span>三月</span><span>三月以上</span></li>
+                    <li id="chthree"><span>每周几天：</span><span
+                            class="current">不限</span><span>一天</span><span>两天</span><span>三天</span><span>四天</span><span>五天</span><span>六天及以上</span>
+                    </li>
+                    <li id="chfour"><span>学历要求：</span><span
+                            class="current">不限</span><span>大专</span><span>本科</span><span>硕士</span><span>博士</span></li>
+                    <li id="chfive"><span>转正机会：</span><span
+                            class="current">不限</span><span>提供转正</span><span>不提供转正</span><span>面议</span></li>
+                    <li id="chsix"><span>企业筛选：</span><span
+                            class="current">不限</span><span>知名企业</span><span>互联网300强</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="jiantou"><span id="jiantou"><img src="images/xiala.png" alt=""></span></div>
+
+        <div class="order">
+            <span>排序方式：</span><span>默认</span><span>最新</span><span>日薪：</span>
+            <div class="nodefenit">不限<img src="images/xiala.png" alt="">
+                <ul class="nodefenit2">
+                    <li>不限</li>
+                    <li>100以下</li>
+                    <li>100-150</li>
+                    <li>150-200</li>
+                    <li>200-300</li>
+                    <li>300以上</li>
+                </ul>
+            </div><span>发布时间：</span><select>
+                <option>不限</option>
+            </select><button>清空</button>
+        </div>
+    </div>
+    <p class="devide"></p>
+    <div class="middle">
+        <!-- 列表： -->
+        <div class="mid">
+            <div id="list">
+                <div class="current">
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-协同产品组</a></span><span
+                                        class="date">150-250/天</span>
+                                </p>
+                                <p class="three"><span>北京 | </span><span>4天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">滴滴</a></span><img src="images/didi.png" alt=""></p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">大厂实习证明</div>
+                                <div class="learn">免费下午茶</div>
+                                <div class="learn">免晚餐补贴</div>
+                            </div>
+                            <div class="right">
+                                <span>业界知名</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品运营及产品策划实习生</a></span><span
+                                        class="date">150-200/天</span>
+                                </p>
+                                <p class="three"><span>广州 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">网易游戏</a></span><img src="images/wangyi.jpg" alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">大厂实习</div>
+                                <div class="learn">餐补</div>
+                                <div class="learn">免费班车</div>
+                            </div>
+                            <div class="right">
+                                <span>文化开放，优秀的团队，机制健全</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-用户产品方向</a></span><span
+                                        class="date">200-300/天</span>
+                                </p>
+                                <p class="three"><span>深圳 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">元象Xverse</a></span><img src="images/yuansu.jpg"
+                                        alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/150-500人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">前腾讯产品</div>
+                                <div class="learn">弹性工作</div>
+                                <div class="learn">扁平管理</div>
+                            </div>
+                            <div class="right">
+                                <span>元宇宙，人工智能，免费早午餐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-工具产品方向</a></span><span
+                                        class="date">200-300/天</span>
+                                </p>
+                                <p class="three"><span>深圳 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">元象Xverse</a></span><img src="images/yuansu.jpg"
+                                        alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">前腾讯产品</div>
+                                <div class="learn">扁平管理</div>
+                                <div class="learn">弹性上班</div>
+                            </div>
+                            <div class="right">
+                                <span>租房补贴早午餐元宇宙，人工智能，免费早午餐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">数据产品-产品运营实习生</a></span><span
+                                        class="date">150-250/天</span>
+                                </p>
+                                <p class="three"><span>上海 | </span><span>4天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">OTYPE</a></span><img src="images/otype.png" alt="">
+                                </p>
+                                <p class="three"><span>企业服务/咨询/150-500人</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">接受大一大二</div>
+                            </div>
+                            <div class="right">
+                                <span>营销鬼才，无限发展空间，五险一金</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生--产品经理</a></span><span
+                                        class="date">120-180/天</span>
+                                </p>
+                                <p class="three"><span>广州 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">美在网络</a></span><img src="images/didi.png" alt=""></p>
+                                <p class="three"><span>互联网/游戏/软件/少于15人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">可转正实习</div>
+
+                            </div>
+                            <div class="right">
+                                <span>业界知名</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <ul>
+                            <li>
+                                < /li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>...</li>
+                            <li>25</li>
+                            <li>></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 实习 -->
+                <div>
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品工程师 </a></span><span class="date">薪资面议</span></p>
+                                <p class="three"><span>北京 | </span><span> 应届生 | </span><span>毕业1年内</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">理想汽车</a></span><img src="images/didi.png" alt=""></p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">扁平化</div>
+                                <div class="learn">上市公司</div>
+
+                            </div>
+                            <div class="right">
+                                <span>新造车势力，互联网，行业前景好</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产产品专员</a></span><span class="date">10k-15k/月</span>
+                                </p>
+                                <p class="three"><span>广州 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">高顿教育</a></span><img src="images/wangyi.jpg" alt="">
+                                </p>
+                                <p class="three"><span>教育/培训/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">节日福利</div>
+                                <div class="learn">生日会</div>
+                                <div class="learn">五险一金</div>
+                                <div class="learn">地铁周边</div>
+                            </div>
+                            <div class="right">
+                                <span>位置好，社保缴纳，活跃的工作环境</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-用户产品方向</a></span><span
+                                        class="date">200-300/天</span>
+                                </p>
+                                <p class="three"><span>深圳 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">元象Xverse</a></span><img src="images/yuansu.jpg"
+                                        alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/150-500人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">前腾讯产品</div>
+                                <div class="learn">弹性工作</div>
+                                <div class="learn">扁平管理</div>
+                            </div>
+                            <div class="right">
+                                <span>元宇宙，人工智能，免费早午餐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-工具产品方向</a></span><span
+                                        class="date">200-300/天</span>
+                                </p>
+                                <p class="three"><span>深圳 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">元象Xverse</a></span><img src="images/yuansu.jpg"
+                                        alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">前腾讯产品</div>
+                                <div class="learn">扁平管理</div>
+                                <div class="learn">弹性上班</div>
+                            </div>
+                            <div class="right">
+                                <span>租房补贴早午餐元宇宙，人工智能，免费早午餐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">数据产品-产品运营实习生</a></span><span
+                                        class="date">150-250/天</span>
+                                </p>
+                                <p class="three"><span>上海 | </span><span>4天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">OTYPE</a></span><img src="images/otype.png" alt="">
+                                </p>
+                                <p class="three"><span>企业服务/咨询/150-500人</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">接受大一大二</div>
+                            </div>
+                            <div class="right">
+                                <span>营销鬼才，无限发展空间，五险一金</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生--产品经理</a></span><span
+                                        class="date">120-180/天</span>
+                                </p>
+                                <p class="three"><span>广州 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">美在网络</a></span><img src="images/didi.png" alt=""></p>
+                                <p class="three"><span>互联网/游戏/软件/少于15人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">可转正实习</div>
+
+                            </div>
+                            <div class="right">
+                                <span>业界知名</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <ul>
+                            <li>
+                                < /li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>...</li>
+                            <li>25</li>
+                            <li>></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 公司： -->
+                <div>
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">广州陨石产品设计</a></span><span class="date">150-250/天</span>
+                                </p>
+                                <p class="three"><span>汽车/机械/制造 | </span><span>少于15人</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">0个在招职位</a></span><img src="images/didi.png" alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">大厂实习证明</div>
+                                <div class="learn">免费下午茶</div>
+                                <div class="learn">免晚餐补贴</div>
+                            </div>
+                            <div class="right">
+                                <span>优秀留用，有发展，老板年轻，积累实战经验</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">青春宝健康产品</a></span><span class="date">150-200/天</span>
+                                </p>
+                                <p class="three"><span>不限 | </span><span>50-150人</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">0个在招职位</a></span><img src="images/wangyi.jpg" alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">大厂实习</div>
+                                <div class="learn">餐补</div>
+                                <div class="learn">免费班车</div>
+                            </div>
+                            <div class="right">
+                                <span>饮料、药品</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-用户产品方向</a></span><span
+                                        class="date">200-300/天</span>
+                                </p>
+                                <p class="three"><span>深圳 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">元象Xverse</a></span><img src="images/yuansu.jpg"
+                                        alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/150-500人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">前腾讯产品</div>
+                                <div class="learn">弹性工作</div>
+                                <div class="learn">扁平管理</div>
+                            </div>
+                            <div class="right">
+                                <span>元宇宙，人工智能，免费早午餐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生-工具产品方向</a></span><span
+                                        class="date">200-300/天</span>
+                                </p>
+                                <p class="three"><span>深圳 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">元象Xverse</a></span><img src="images/yuansu.jpg"
+                                        alt="">
+                                </p>
+                                <p class="three"><span>互联网/游戏/软件/2000人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">前腾讯产品</div>
+                                <div class="learn">扁平管理</div>
+                                <div class="learn">弹性上班</div>
+                            </div>
+                            <div class="right">
+                                <span>租房补贴早午餐元宇宙，人工智能，免费早午餐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">数据产品-产品运营实习生</a></span><span
+                                        class="date">150-250/天</span>
+                                </p>
+                                <p class="three"><span>上海 | </span><span>4天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">OTYPE</a></span><img src="images/otype.png" alt="">
+                                </p>
+                                <p class="three"><span>企业服务/咨询/150-500人</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">接受大一大二</div>
+                            </div>
+                            <div class="right">
+                                <span>营销鬼才，无限发展空间，五险一金</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one">
+                        <div class="top">
+                            <div class="left">
+                                <p><span class="title"><a href="">产品实习生--产品经理</a></span><span
+                                        class="date">120-180/天</span>
+                                </p>
+                                <p class="three"><span>广州 | </span><span>5天/周 | </span><span>3个月</span></p>
+                            </div>
+                            <div class="right">
+                                <p><span class="title"><a href="">美在网络</a></span><img src="images/didi.png" alt=""></p>
+                                <p class="three"><span>互联网/游戏/软件/少于15人以上</span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="learn">可转正实习</div>
+
+                            </div>
+                            <div class="right">
+                                <span>业界知名</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <ul>
+                            <li>
+                                < /li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>...</li>
+                            <li>25</li>
+                            <li>></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="only">
+                <a href=""> <img src="images/qiuzhao.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="foot">
+            <dl>
+                <dt>
+                    产品服务
+                </dt>
+                <dd>
+                    找实习
+                </dd>
+                <dd>
+                    找校招
+                </dd>
+                <dd>
+                    看空宣
+                </dd>
+                <dd>
+                    职前教育
+                </dd>
+
+            </dl>
+
+            <dl>
+                <dt>
+                    旗下产品
+                </dt>
+                <dd>
+                    实习僧
+                </dd>
+                <dd>
+                    实习僧教育
+                </dd>
+                <dd>
+                    实习僧TV
+                </dd>
+                <dd>
+                    前辈学院
+                </dd>
+
+            </dl>
+
+            <dl>
+                <dt>
+                    关于我们
+                </dt>
+                <dd>
+                    了解我们
+                </dd>
+                <dd>
+                    加入我们
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>
+                    联系我们
+                </dt>
+                <dd>
+                    实习僧微博
+                </dd>
+                <dd>
+                    实习僧公众号
+                </dd>
+                <dd>
+                    客户服务
+                </dd>
+                <dd>
+                    商务合作
+                </dd>
+
+            </dl>
+
+            <dl class="download">
+                <dt>
+                    下载APP
+                </dt>
+                <dd>
+                    <img src="images/footer_ios.png" alt="">
+                </dd>
+                <dd>
+                    <img src="images/footer_android.png" alt="">
+                </dd>
+            </dl>
+        </div>
+        <p>©2015-2022 实习僧 &nbsp;| &nbsp;蜀ICP备13010980号 &nbsp;| &nbsp;联系我们:sxs@shixiseng.com</p>
+        <p> 成都萌想科技有限责任公司版权所有 中国专注实习、校招垂直招聘平台</p>
+        <p class="last"><img src="images/label_sm_90020.png" alt="">
+            <img src="images/record-icon.png" alt="">
+            川公网安备51019002001179号 &nbsp;&nbsp;<img src="images/jyzz-icon.png" alt="">&nbsp;&nbsp;经营资质
+        </p>
+    </footer>
+    <script src="js/list.js"></script>
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $('#jiantou').click(function () {
+            $('#choose').toggle();
+            $(this).children().toggleClass('jiantouimg')
+        })
+
+        $('.nodefenit').click(function () {
+            console.log('dd')
+            $('.nodefenit2').toggle();
+            $(this).children('img').toggleClass('jiantouimg')
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #dceaf5;
+}
+
+.background {
+    height: 322px;
+}
+
+.background img {
+    width: 100%;
+}
+
+.content {
+    width: 900px;
+    height: 637px;
+    background-color: #fafafa;
+    border-top: 2px solid #ff9000;
+}
+
+.contain {
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img1 img {
+    width: 108px;
+    height: 38px;
+}
+
+.img1 p {
+    float: right;
+    margin-top: 14px;
+}
+
+.img1 span {
+    font-size: 12px;
+    color: white;
+    margin-right: 10px;
+}
+
+.img1 a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+
+.img2 img {
+    position: absolute;
+    right: -42px;
+    top: 10px;
+    width: 74px;
+    height: 113px;
+}
+
+.middle {
+    margin-bottom: 88px;
+    padding-left: 25px;
+}
+
+.middle .center .left {
+    padding-top: 38px;
+    float: left;
+    width: 461px;
+    padding-right: 146px;
+    padding-bottom: 106px;
+    border-right: 1px solid #d9d9d9;
+}
+
+.middle .center .left img {
+    margin-right: 30px;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.middle .center .red {
+    color: red;
+}
+
+.middle .center .input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    border-radius: 3px;
+}
+
+.center .login {
+    font-size: 12px;
+    margin-left: 165px;
+}
+
+.center .login a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0a8cd2;
+}
+
+.center .password {
+    margin-left: 78px;
+    margin-top: 14px;
+}
+
+.center .hobby {
+    margin-left: 78px;
+    margin-top: 14px;
+
+}
+
+.center .hobby .select {
+    display: inline-block;
+    font-size: 14px;
+    width: 243px;
+}
+
+.center .hobby .a {
+    display: inline-block;
+
+}
+
+.message {
+    margin-left: 48px;
+    margin-top: 14px;
+}
+
+.message button {
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.message button:hover {
+    color: white;
+    background: rgb(146, 216, 40);
+}
+
+.protol {
+    margin-left: 166px;
+    margin-top: 10px;
+}
+
+.protol a {
+    color: #0a8cd2;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.protol a:hover {
+    text-decoration: underline;
+}
+
+.middle .center .right {
+    padding-top: 38px;
+    float: right;
+    width: 266px;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+.middle .center .right a {
+    color: #0a8cd2;
+    text-decoration: none;
+}
+
+.middle .center .right a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    overflow: hidden;
+
+}
+
+.top {
+    height: 58px;
+}
+
+
+.top div {
+    float: left;
+    margin-top: 18px;
+}
+
+.top .left {
+    height: 39px;
+    width: 21px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.top .right {
+    height: 39px;
+    border-bottom: 1px solid #d9d9d9;
+    width: 750px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.register {
+    width: 126px;
+    height: 39px;
+    border: 1px solid #d9d9d9;
+    border-bottom: none;
+    text-align: center;
+    line-height: 39px;
+}
+
+.footer {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 12px;
+
+}
+
+.footer a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #0a8cd2;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 6px;
+}
